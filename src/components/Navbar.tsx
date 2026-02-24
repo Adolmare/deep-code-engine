@@ -21,7 +21,7 @@ export function Navbar({ onNavigate }: NavbarProps) {
           className="flex items-center gap-2 text-foreground hover:text-primary transition-colors"
         >
           <Terminal className="w-4 h-4 text-primary" />
-          <span className="font-mono text-sm font-semibold">cm<span className="text-primary">.</span>dev</span>
+          <span className="font-mono text-sm font-semibold">devlfo<span className="text-primary">.</span>online</span>
         </button>
 
         <div className="flex items-center gap-6">

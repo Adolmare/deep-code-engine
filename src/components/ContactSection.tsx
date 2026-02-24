@@ -25,12 +25,12 @@ export function ContactSection() {
 
             <div className="flex flex-col gap-3 mt-8">
               {[
-                { icon: Mail, label: "contacto@cmendoza.dev", href: "mailto:contacto@cmendoza.dev" },
-                { icon: Github, label: "github.com/cmendoza", href: "https://github.com" },
-                { icon: Linkedin, label: "linkedin.com/in/cmendoza", href: "https://linkedin.com" },
+                { icon: Mail, label: "thedeveduboss@gmail.com", href: "mailto:thedeveduboss@gmail.com" },
+                { icon: Github, label: "github.com/adolmare", href: "https://github.com/adolmare" },
+                { icon: Linkedin, label: "linkedin.com", href: "https://linkedin.com" },
               ].map((link) => (
                 <a
-                  key={link.label}
+                  key={link.label}  
                   href={link.href}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -54,7 +54,7 @@ export function ContactSection() {
             <span className="text-comment"> */</span>
           </p>
           <p className="text-xs text-line-number mt-2 font-mono">
-            © 2026 Carlos Mendoza — All rights reserved
+            © 2026 Devlfo 
           </p>
         </div>
       </div>

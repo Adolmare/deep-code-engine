@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 
 const lines = [
   { num: 1, content: <><span className="text-keyword">const</span> <span className="text-function">developer</span> = {"{"}</>, delay: 0 },
-  { num: 2, content: <>&nbsp;&nbsp;name: <span className="text-string">"Carlos Mendoza"</span>,</>, delay: 100 },
-  { num: 3, content: <>&nbsp;&nbsp;role: <span className="text-string">"Systems Engineer & Backend Developer"</span>,</>, delay: 200 },
-  { num: 4, content: <>&nbsp;&nbsp;focus: [<span className="text-string">"Backend"</span>, <span className="text-string">"Cybersecurity"</span>, <span className="text-string">"Systems"</span>],</>, delay: 300 },
+  { num: 2, content: <>&nbsp;&nbsp;name: <span className="text-string">"Adolfo Reino"</span>,</>, delay: 100 },
+  { num: 3, content: <>&nbsp;&nbsp;role: <span className="text-string">"Systems Engineer & Full stack devolpers"</span>,</>, delay: 200 },
+  { num: 4, content: <>&nbsp;&nbsp;focus: [<span className="text-string">"Fullstack"</span>, <span className="text-string">"Systems"</span>],</>, delay: 300 },
   { num: 5, content: <>&nbsp;&nbsp;status: <span className="text-string">"Building robust systems"</span>,</>, delay: 400 },
   { num: 6, content: <>{"}"}</>, delay: 500 },
 ];

@@ -8,7 +8,7 @@ interface Tech {
 }
 
 const techStack: Tech[] = [
-  { name: "Python", description: "APIs REST con FastAPI, automatización, scripting de seguridad.", category: "languages" },
+  { name: "JavaScripts", description: "Sitios web, automatización, scripting de seguridad.", category: "languages" },
   { name: "Go", description: "Microservicios de alto rendimiento y herramientas CLI.", category: "languages" },
   { name: "Rust", description: "Sistemas de bajo nivel, parsers y herramientas de red.", category: "languages" },
   { name: "TypeScript", description: "Backend con Node.js y herramientas de desarrollo.", category: "languages" },
